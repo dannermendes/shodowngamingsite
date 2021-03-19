@@ -7,7 +7,7 @@ import News from '../../view/News';
 import Cast from '../../view/Cast';
 
 const Router = () => (
-  <BrowserRouter>      
+  <BrowserRouter basename='/shodowngamingsite'>      
     <Layout>
       <Switch>
         <Route path='/' exact>
