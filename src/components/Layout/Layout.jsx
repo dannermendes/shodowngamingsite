@@ -1,14 +1,20 @@
-import { Container } from '@material-ui/core';
+import { Container, styled } from '@material-ui/core';
 import React from 'react';
+import Footer from '../Footer';
 import Header from '../Header';
 
+const ContentContainer = styled(Container)({
+  minHeight: 'calc(100vh - 520px)',
+})
+
 const Layout = ({children}) => (
-  <di>
+  <div>
     <Header />
-    <Container>
+    <ContentContainer>
       { children }
-    </Container>
-  </di>
+    </ContentContainer>
+    <Footer />
+  </div>
 );
 
 export default Layout;

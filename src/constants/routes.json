@@ -1,4 +1,8 @@
 {
-  "News":"/",
-  "History":"/history"
+  "News":"/news",
+  "History":"/history",
+  "Cast": "/cast",
+  "Sponsors": "/sponsors",
+  "Merch": "/merch",
+  "Account" : "/account"
 }
