@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
+import { HashRouter as MainRouter, Redirect, Route, Switch } from 'react-router-dom';
 
 import Layout from '../Layout';
 import History from '../../view/History';
@@ -7,7 +7,7 @@ import News from '../../view/News';
 import Cast from '../../view/Cast';
 
 const Router = () => (
-  <BrowserRouter basename='/shodowngamingsite'>      
+  <MainRouter>      
     <Layout>
       <Switch>
         <Route path='/' exact>
@@ -24,7 +24,7 @@ const Router = () => (
         </Route>
       </Switch>
     </Layout>
-  </BrowserRouter>
+  </MainRouter  >
 );
 
 export default Router;
