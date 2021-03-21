@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@material-ui/core';
-import MenuItem from '../MenuItem';
+import MenuItem from './MenuItem';
 
 
 const NavBarContainer = styled('div')({
@@ -24,7 +24,7 @@ const NavBar = () => (
   <NavBarContainer>
     <NavBlock>
       <NavBlockContainer>
-        <MenuItem to="/history">History</MenuItem>
+        <MenuItem to="/history">História</MenuItem>
         <MenuItem to="/news">News</MenuItem>
         <MenuItem to="/cast">Cast</MenuItem>
       </NavBlockContainer>

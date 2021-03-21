@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom'; 
 import { makeStyles } from '@material-ui/core';
 import classNames from 'classnames';
@@ -10,6 +10,7 @@ const useStyles = makeStyles({
     height: '100%',
     fontWeight:'bold',
     justifyContent: 'center',
+    fontSize: '18px',
   },
   inner: {
     margin: 'auto 0',
